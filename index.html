@@ -3,25 +3,16 @@
 <head>
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- GOOGLE VERIFICATION -->
+<!-- GOOGLE VERIFICATION (MUST BE IN HEAD) -->
 <meta name="google-site-verification" content="zbQVCx5UeP3RBP7PBDHXL2We6q0tgGAWe4xjshaSqTE" />
 
-<!-- PRIMARY SEO -->
-<title>Certified Court Reporter in Roanoke, Virginia | Frank R. Austin</title>
+<title>Court Reporter in Roanoke, Virginia | Frank R. Austin</title>
 
-<meta name="description" content="Looking for a certified court reporter in Roanoke, Virginia? Frank R. Austin provides professional realtime reporting, depositions, and certified transcripts in Roanoke, VA and throughout Virginia. 28+ years of experience.">
+<meta name="description" content="Frank R. Austin is a professional court reporter in Roanoke, Virginia, providing realtime reporting, depositions, and certified transcripts with over 28 years of experience.">
 
-<link rel="canonical" href="https://frank-austin-court-reporter-website.vercel.app/">
+<meta name="keywords" content="court reporter roanoke virginia, roanoke court reporter, realtime court reporting roanoke va, deposition services roanoke, frank r austin court reporter">
 
-<meta name="robots" content="index, follow">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Certified Court Reporter in Roanoke, Virginia | Frank R. Austin">
-<meta property="og:description" content="Professional court reporting services in Roanoke, VA. Realtime reporting, depositions, and certified transcripts.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://frank-austin-court-reporter-website.vercel.app/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -43,23 +34,12 @@
   "@context": "https://schema.org",
   "@type": "LegalService",
   "name": "Frank R. Austin Court Reporting",
-  "image": "https://frank-austin-court-reporter-website.vercel.app/frank.png",
+  "areaServed": "Roanoke, Virginia",
   "telephone": "+1-540-926-0092",
   "email": "fra.stenosmart@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Roanoke",
-    "addressRegion": "VA",
-    "addressCountry": "US"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Roanoke, Virginia"
-  },
-  "url": "https://frank-austin-court-reporter-website.vercel.app/"
+  
 }
 </script>
-
 
 <style>
 :root{
@@ -226,13 +206,92 @@ footer{
   gap:15px;
   justify-content:center;
 }
+
+/* ========================= */
+/* MOBILE RESPONSIVE DESIGN  */
+/* ========================= */
+
+@media (max-width: 768px){
+
+/* HEADER FIX */
+header{
+  padding:60px 20px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:top center;
+}
+
+header h1{
+  font-size:1.8rem;
+}
+
+header p{
+  font-size:0.95rem;
+}
+
+/* CENTER ALL TEXT IN MOBILE */
+.card{
+  text-align:center;
+  padding:30px 20px;
+}
+
+.card ul{
+  text-align:left;
+  padding-left:20px;
+}
+
+/* SERVICES SWIPE MODE */
+.services{
+  display:flex;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  gap:15px;
+  padding-bottom:10px;
+}
+
+.services::-webkit-scrollbar{
+  display:none;
+}
+
+.service-item{
+  min-width:250px;
+  flex:0 0 auto;
+  scroll-snap-align:center;
+}
+
+/* GOLD WHEN CLICKED */
+.service-item:active{
+  background:var(--secondary);
+  color:#000;
+}
+
+.service-item:active i{
+  color:#000;
+}
+
+/* CTA BUTTON FIX */
+header .cta a{
+  display:block;
+  margin:12px auto;
+  width:90%;
+  max-width:300px;
+}
+
+/* CALL BUTTON FIX */
+.call-btn{
+  right:50%;
+  transform:translateX(50%);
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Certified Court Reporter in Roanoke, Virginia – Frank R. Austin</h1>
+  <h1>Court Reporter in Roanoke, Virginia – Frank R. Austin</h1>
   <p><strong>RMR • CRR • RPR • CSR</strong></p>
   <p>Professional Court Reporting Services in Roanoke, VA</p>
   <p>📞 <a href="tel:+15409260092">(540) 926-0092</a></p>
@@ -245,30 +304,15 @@ footer{
 
 <div class="container">
 
-  <div class="card">
-    <h2>About Frank</h2>
-    <p>
-    Frank R. Austin is a certified professional court reporter based in
-    <strong>Roanoke, Virginia</strong>, with over <strong>28 years of experience</strong>
-    providing accurate court reporting, realtime reporting, and certified transcripts
-    for attorneys throughout Roanoke and surrounding areas of Virginia.
-    </p>
-    
-    <p>
-    Frank proudly serves attorneys, law firms, and legal professionals in
-    Roanoke, Virginia, including downtown Roanoke, Salem, Vinton,
-    and surrounding Southwest Virginia communities. Whether handling
-    depositions, court hearings, arbitrations, or remote proceedings,
-    Frank delivers accurate, timely, and confidential court reporting services.
-    </p>
-    
-    <p>
-    If you are searching for a reliable court reporter in Roanoke VA,
-    Frank R. Austin offers certified realtime reporting, electronic transcripts,
-    and professional legal documentation tailored to your case needs.
-    </p>
-    </div>
-    
+<div class="card">
+<h2>About Frank</h2>
+<p>
+Frank R. Austin is a certified professional court reporter based in
+<strong>Roanoke, Virginia</strong>, with over <strong>28 years of experience</strong>
+providing accurate court reporting, realtime reporting, and certified transcripts
+for attorneys throughout Roanoke and surrounding areas of Virginia.
+</p>
+</div>
 
 <div class="card">
 <h2>Services</h2>
@@ -311,15 +355,6 @@ footer{
 <button type="submit">Submit Request</button>
 <p id="form-status"></p>
 </form>
-<iframe
-  src="https://www.google.com/maps?q=Roanoke,Virginia&output=embed"
-  width="100%"
-  height="250"
-  style="border:0; margin-top:20px;"
-  allowfullscreen=""
-  loading="lazy">
-</iframe>
-
 </div>
 
 </div>
