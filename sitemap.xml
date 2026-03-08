@@ -3,28 +3,28 @@
 
   <!-- Home page -->
   <url>
-    <loc>https://www.frankaustincourtreporting.com/</loc>
+    <loc>https://www.frankraustin.com/</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- About section -->
   <url>
-    <loc>https://www.frankaustincourtreporting.com/#about</loc>
+    <loc>https://www.frankraustin.com/#about</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Services section -->
   <url>
-    <loc>https://www.frankaustincourtreporting.com/#services</loc>
+    <loc>https://www.frankraustin.com/#services</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Contact section -->
   <url>
-    <loc>https://www.frankaustincourtreporting.com/#contact</loc>
+    <loc>https://www.frankraustin.com/#contact</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.8</priority>
   </url>
