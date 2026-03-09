@@ -2,7 +2,13 @@
     "redirects": [
       {
         "source": "/(.*)",
-        "destination": "https://www.frankraustin.com",
+        "has": [
+          {
+            "type": "host",
+            "value": "court-reporter-roanokevirginia.vercel.app"
+          }
+        ],
+        "destination": "https://www.frankraustin.com/$1",
         "permanent": true
       }
     ]
