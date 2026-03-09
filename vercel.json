@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "destination": "https://www.frankraustin.com",
+        "permanent": true
+      }
+    ]
+  }
