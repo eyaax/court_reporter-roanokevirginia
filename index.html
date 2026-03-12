@@ -301,12 +301,25 @@ header .cta a{
   transform:translateX(50%);
 }
 
-form input, form textarea, form select{
-  width:100%;
-  padding:14px;
-  border-radius:8px;
-  border:1px solid #ccc;
-  margin-bottom:16px;
+form input,
+form textarea,
+form select{
+width:100%;
+padding:14px;
+border-radius:8px;
+border:1px solid #ccc;
+margin-bottom:16px;
+font-family:'Roboto',sans-serif;
+font-size:16px;
+box-sizing:border-box;
+}
+
+/* remove default browser style */
+form select{
+appearance:none;
+-webkit-appearance:none;
+-moz-appearance:none;
+background:white;
 }
 
 }
