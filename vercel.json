@@ -1,15 +1,15 @@
 {
-    "redirects": [
-      {
-        "source": "/(.*)",
-        "has": [
-          {
-            "type": "host",
-            "value": "court-reporter-roanokevirginia.vercel.app"
-          }
-        ],
-        "destination": "https://www.frankraustin.com/$1",
-        "permanent": true
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "court-reporter-roanokevirginia-git-main-eyas-projects-2e139dbd.vercel.app"
+        }
+      ],
+      "destination": "https://www.frankraustin.com/$1",
+      "permanent": true
+    }
+  ]
+}
